@@ -1,6 +1,22 @@
 # taller_data_fs
-Taller conjunto para alumnos de data y full stack
 
+## Índice
+
+- [Taller conjunto Data & Full Stack](#taller_data_fs)
+  - [1. Presentación de la base de datos y análisis exploratorio de datos](#1-presentación-de-la-base-de-datos-y-análisis-exploratorio-de-datos)
+    - [1.1. Presentación de la base de datos](#11-presentación-de-la-base-de-datos)
+    - [1.2. Análisis exploratorio de datos](#12-análisis-exploratorio-de-datos)
+  - [2. Creación del modelo predictivo](#2-creación-del-modelo-predictivo)
+    - [2.1. Preprocesamiento de datos](#21-preprocesamiento-de-datos)
+    - [2.2. Entrenamiento del modelo](#22-entrenamiento-del-modelo)
+    - [2.3. Evaluación del modelo](#23-evaluación-del-modelo)
+  - [3. Creación de la API en Python](#3-creación-de-la-api-en-python)
+    - [3.1. Creación de la API](#31-creación-de-la-api)
+    - [3.2. Definición de las rutas y los endpoints](#32-definición-de-las-rutas-y-los-endpoints)
+  - [4. Introducción al desarrollo con React](#4-introducción-al-desarrollo-con-react)
+  - [5. Creación de la app con React](#5-creación-de-la-app-con-react)
+  - [6. Pruebas y puesta en común](#6-pruebas-y-puesta-en-común)
+  - [7. Bonus: Devolver una gráfica con los resultados para múltiples inputs](#7-bonus-devolver-una-gráfica-con-los-resultados-para-múltiples-inputs)
 
 Taller conjunto Data & Full Stack
 
@@ -15,7 +31,7 @@ Objetivo del taller:
 
 Organización del taller:
 
-Sesión 1 (2h y media):
+Sesión 1 (2h 30 min):
 
 0. Introducción y presentación del taller (15 minutos)
    - Explicar el objetivo del taller
@@ -46,7 +62,7 @@ Sesión 2 (2 horas):
    - Crear componentes de interfaz de usuario para mostrar un formulario con las características necesarias para obtener un precio de alquiler
    - Utilizar fetch para llamar a los endpoints de la API y mostrar el resultado en la interfaz de usuario de la app
 
-6. Pruebas y puesta en común (30 minutos)
+6. Pruebas y puesta en común (15 minutos)
    - Realizar pruebas de funcionalidad de la app y de la API
    - Compartir los resultados e intercambiar opiniones entre los alumnos de Data y Full Stack
    - Recabar feedback y sugerencias para mejorar el proyecto conjunto
@@ -594,3 +610,17 @@ Debajo de la condición para mostrar el resultado de la predicción, hemos agreg
 Guarda los cambios realizados en el archivo `App.js` y vuelve a cargar la aplicación en tu navegador. Ahora, después de realizar una predicción, deberías ver la gráfica renderizada junto con el resultado.
 
 
+## Referencias
+
+- Data:
+    - [Pandas](https://pandas.pydata.org/)
+    - [Scikit-learn](https://scikit-learn.org/stable/)
+    - [python plotly](https://plotly.com/python/)
+    - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
+- Full Stack:
+    - [React](https://react.dev/)
+    - [react-plotly.js](https://plotly.com/javascript/react/)
+    - [Vite](https://vitejs.dev/)
+- Docker:
+    - [Docker](https://www.docker.com/)
+    - [Docker Compose](https://docs.docker.com/compose/)
